@@ -1,0 +1,62 @@
+#root {
+  
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  
+}
+
+.car {
+  padding: 2em;
+  margin:0% ;
+
+  border: solid 1px black;
+  text-align: left;
+  max-width:max-content;
+  font-size: 30px;
+  margin-bottom: 20px;
+  background-image: url('../public/glav.png');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.headernew {
+  top: 0%;
+  border: solid 0px black;
+  background-color: #7f7f7f; /* Или любой другой цвет фона */
+  color: white; /* Цвет текста */
+  padding: 0px 10px; /* Отступы внутри шапки */
+  display: flex; /* Используем flexbox для выравнивания элементов */
+  align-items: center; /* Выравниваем элементы по центру по вертикали */
+  justify-content: space-between; /* Распределяем элементы по горизонтали */
+  position: sticky; /* Шапка будет прилипать к верхней части экрана при прокрутке */
+  top: 0; /* Шапка начинается сразу под верхним краем окна браузера */
+  z-index: 100; /* Убедимся, что шапка находится над другими элементами */
+}
+
+
+.headerul {
+  list-style: none; /* Убираем маркеры списка */
+  display: flex; /* Используем flexbox для выравнивания пунктов меню */
+  margin: 0; /* Убираем стандартные отступы */
+  padding: 0; /* Убираем стандартные отступы */
+
+}
+
+.Footer {
+  border: solid 1px black;
+  position: absolute;
+  bottom: 0;
+  width: 65.5%;
+}
+
+.Posnew {
+  display: inline-block;
+  display: flex;
+}
+

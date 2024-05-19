@@ -13,3 +13,4 @@ Currently, two official plugins are available:
 - npm install
 - npm install react-router - переходы между страницами
 - npm install react-bootstrap bootstrap
+- npm install --save @pbe/react-yandex-maps - работа с яндекс.картами

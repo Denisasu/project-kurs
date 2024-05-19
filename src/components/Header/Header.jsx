@@ -5,15 +5,16 @@ import userlogo from '../../imgs/Vector.png'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from '../../pages/Home/Home';
 import Statistics from '../../pages/Statistics';
-import Contacts from '../../pages/Contacts';
+import Zayvka from '../../Zayvka';
 import '../../App.css'
+
 
 function Header() {
 
 
   return (
     <>
-        <Navbar fixed='top' collapseOnSelect expand='md' style={{backgroundColor: '#D0D0D0', color:"#D0D0D0", height:'45px'}}>
+        <Navbar fixed='top' collapseOnSelect expand='md' style={{backgroundColor: '#4FD566', color:"#D0D0D0", height:'45px'}}>
           <Container >
             <Navbar.Brand href='/' style={{display:'flex', alignItems: 'center'}}>
               <img src={logo} height={40} width={40} alt='Logo'/>
@@ -25,6 +26,7 @@ function Header() {
                 <Nav.Link href='/'>Главная</Nav.Link>
                 <Nav.Link href='/statistics'>Статистика</Nav.Link>
                 <Nav.Link href='/contacts'>Контакты</Nav.Link>
+                <Nav.Link href='/Zayvka'>Заявка</Nav.Link>
               </Nav>
             </NavbarCollapse>
             <Navbar.Brand href='/'>
@@ -37,7 +39,7 @@ function Header() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/statistics' element={<Statistics />} />
-            <Route exact path='/contacts' element={<Contacts />} />
+            <Route exact path='/Zayvka' element={<Zayvka />} />
           </Routes>
         </Router>
     </>
